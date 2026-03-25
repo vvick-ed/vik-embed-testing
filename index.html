@@ -11,13 +11,16 @@ body { font-family: sans-serif; text-align: center; padding: 50px; }
 </style>
 </head>
 <body>
-<div class="container">
-<h1>Welcome to my Test Page</h1>
-<p>This is a live test for my embed integration.</p>
-        </div>
-<div data-foleon-module-id="ejl9papj19" data-foleon-brandkit-id="l2255a09z4"></div>
-<script async src="https://embed.staging.foleon.cloud/embed-module.js"></script>
-    
+    <div class="container">
+        <h1>Welcome to my Test Page</h1>
+        <p>The Foleon module is loading below inside an isolated iframe.</p>
+        
+        <iframe 
+            src="embed.html" 
+            style="width: 100%; height: 600px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);"
+            title="Foleon Content">
+        </iframe>
+    </div>
 
 </body>
 </html>
